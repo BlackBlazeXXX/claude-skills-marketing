@@ -6,8 +6,8 @@
 
 <br>
 
-[![GitHub stars](https://img.shields.io/github/stars/YOUR-USERNAME/claude-skills-marketing?style=for-the-badge&color=yellow)](https://github.com/YOUR-USERNAME/claude-skills-marketing/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YOUR-USERNAME/claude-skills-marketing?style=for-the-badge&color=blue)](https://github.com/YOUR-USERNAME/claude-skills-marketing/forks)
+[![GitHub stars](https://img.shields.io/github/stars/BlackBlazeXXX/claude-skills-marketing?style=for-the-badge&color=yellow)](https://github.com/BlackBlazeXXX/claude-skills-marketing/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/BlackBlazeXXX/claude-skills-marketing?style=for-the-badge&color=blue)](https://github.com/BlackBlazeXXX/claude-skills-marketing/forks)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@ Every time you need marketing content, you write the same long prompts:
 ## ⚡ Install in 30 Seconds
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/claude-skills-marketing
+git clone https://github.com/BlackBlazeXXX/claude-skills-marketing
 cd claude-skills-marketing
 bash install.sh
 ```
@@ -204,6 +204,6 @@ If this saved you time — a star takes 1 second and helps thousands of people f
 
 **Made with ❤️ for the Claude Code community**
 
-[⭐ Star this repo](https://github.com/YOUR-USERNAME/claude-skills-marketing) · [🐛 Report Issue](https://github.com/YOUR-USERNAME/claude-skills-marketing/issues) · [💡 Request a Skill](https://github.com/YOUR-USERNAME/claude-skills-marketing/issues/new)
+[⭐ Star this repo](https://github.com/BlackBlazeXXX/claude-skills-marketing) · [🐛 Report Issue](https://github.com/BlackBlazeXXX/claude-skills-marketing/issues) · [💡 Request a Skill](https://github.com/BlackBlazeXXX/claude-skills-marketing/issues/new)
 
 </div>
