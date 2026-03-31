@@ -1,33 +1,25 @@
 ---
 name: social-media-post
-description: Create viral social media posts for Instagram, Twitter/X, LinkedIn, Facebook with hooks and hashtags
+description: v3.0 Meta-Level Social Media Post Generator (Data-Driven)
 argument-hint: "[platform] [topic] [tone: professional/casual/funny]"
 ---
 
-Create at least THREE (3) distinct variations (e.g., Professional, Edgy, Minimalist) for a high-converting social media post based on: $ARGUMENTS
+## ⚡ v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Social Media Post Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Identify the platform** (Instagram / Twitter-X / LinkedIn / Facebook / TikTok)
-3.  **Variations:** Offer three distinct angles to the same topic.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` located in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` for platform limits and `core/marketing-triggers.json` for psychological triggers.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current project or skills folder, it takes precedence over all other tone/audience settings.
+4.  **Parameter Injection:** Process the following user arguments: $ARGUMENTS
 
-## 📝 Variation Structure (Repeat for each)
-### Variation [Name]:
-**Hook:** [attention-grabbing first line]
-**Post:** [full post content - short, punchy, valuable]
-**CTA:** [clear call to action]
-**Hashtags:** [5-10 relevant trending hashtags]
-**Best Time to Post:** [suggest best posting time for this platform]
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct meta-level variations** (Direct, Emotional, Analytical).
+- Each variation MUST strictly follow the `meta.json` logic for structure (Hook, Body, CTA, Hashtags, Posting Time).
+- You MUST provide a **Psychology Breakdown** for every generation, referencing at least one trigger from `core/marketing-triggers.json`.
 
-## 🧠 Psychology Breakdown (REQUIRED)
-Provide a final summary explaining:
-- **Primary Trigger:** (e.g., Curiosity, Scarcity, Authority)
-- **Why it works:** [2-3 sentences on the marketing psychology behind the chosen hooks/content]
-
-## Rules
-- Keep Twitter/X under 280 characters
-- LinkedIn posts = professional but human tone
-- Instagram = visual storytelling + emotional
-- Make it feel REAL, not robotic
-- Always include ONE strong CTA per variation
-- If `brand-voice.md` is not present, use the tone provided in arguments.
+### 🚫 Constraints
+- Twitter character limit is Hard-Locked at 280.
+- LinkedIn must prioritize professional but human-sounding value propositions.
+- TikTok must focus on viral hooks and curiosity-driven gaps.
+- Strictly adhere to any "Anti-Keywords" found in `brand-voice.md`.
