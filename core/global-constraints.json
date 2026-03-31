@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "Twitter": {
+      "max_chars": 280,
+      "max_hashtags": 3,
+      "format": "Punchy / Thread-ready"
+    },
+    "LinkedIn": {
+      "max_chars": 3000,
+      "max_hashtags": 5,
+      "format": "Professional / Story-led"
+    },
+    "Instagram": {
+      "max_chars": 2200,
+      "max_hashtags": 30,
+      "format": "Visual / Emotional"
+    },
+    "Facebook": {
+      "max_chars": 5000,
+      "max_hashtags": 2,
+      "format": "Community-focused"
+    },
+    "TikTok": {
+      "max_chars": 4000,
+      "max_hashtags": 10,
+      "format": "Trend-driven / Casual"
+    }
+  },
+  "compliance": {
+    "no_false_claims": "Always include a disclaimer for results.",
+    "no_spam_triggers": "Avoid all-caps, excessive emojis, and 'Free' in subject lines."
+  }
+}

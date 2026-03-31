@@ -1,0 +1,22 @@
+{
+  "scarcity": {
+    "description": "Limiting the availability of an offer to trigger quick action.",
+    "phrases": ["Only 3 left", "Last 24 hours", "One-time offer"],
+    "rule": "Only use if truly limited in time or quantity."
+  },
+  "curiosity": {
+    "description": "Using 'Open Loops' to force the reader's brain to seek the answer.",
+    "phrases": ["The secret to...", "What nobody tells you about...", "The #1 reason..."],
+    "rule": "The answer MUST be provided in the next 2 sentences."
+  },
+  "social_proof": {
+    "description": "Validation from others to build trust and lower the barrier to entry.",
+    "phrases": ["Join 10,000+", "As seen in...", "Used by industry leaders"],
+    "rule": "Include 3 specific credibility markers from brand-voice.md."
+  },
+  "contrast": {
+    "description": "Comparing the current pain to the desired future state.",
+    "phrases": ["Stop doing [X], Start doing [Y]", "Before: [Pain], After: [Solution]"],
+    "rule": "Ensure the 'Before' is emotionally resonant."
+  }
+}
