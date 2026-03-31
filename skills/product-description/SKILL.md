@@ -4,57 +4,26 @@ description: Write compelling product descriptions for ecommerce, websites, and 
 argument-hint: "[product name] [key features] [target buyer] [platform: amazon/shopify/website]"
 ---
 
-Write a converting product description for: $ARGUMENTS
+Create at least THREE (3) distinct product descriptions (e.g., Luxury/Minimalist, High-Energy/Benefit, Direct/Technical) based on: $ARGUMENTS
 
-## Instructions
+## 🎯 Strategic Check
+1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
+2.  **Variations:** Offer three distinct ways to sell this product based on the buyer persona.
 
-1. **Product Title** — SEO-optimized, benefit-led title
-2. **Short Description** — 2-3 sentence hook (above the fold)
-3. **Full Description** — story-driven, benefit-focused content
-4. **Bullet Points** — 5 scannable benefit bullets
-5. **Technical Specs** — clean spec table
-6. **Social Proof Hook** — sentence to place near reviews
-7. **FAQ** — 3 common buyer questions answered
+## 📝 Variation Section: Selling Angles (Provide 3 Variations)
+### Variation [Name]:
+- **Hook Title:** [Benefit-led title]
+- **The "Big Promise":** [What is the #1 result?]
+- **Short Description:** [2-3 sentences above the fold]
 
-## Output Format:
+## ✍️ Full Product Detail
+[Complete breakdown including Full Description, 5 Bullet Benefits (Feature -> Benefit mapping), Technical Specs Table, and 3 Buyer FAQs]
 
-### Product Title:
-[SEO title with main keyword]
-
-### Short Description (Hook):
-[2-3 sentences that sell the transformation/benefit]
-
-### Full Description:
-[3-4 paragraphs: problem → solution → features as benefits → who it's for]
-
-### Key Benefits (Bullet Points):
-✅ [benefit 1 — feature → what it means for them]
-✅ [benefit 2]
-✅ [benefit 3]
-✅ [benefit 4]
-✅ [benefit 5]
-
-### Specifications:
-| Spec | Details |
-|---|---|
-| [spec name] | [value] |
-
-### Social Proof Hook:
-"[sentence to place above reviews section]"
-
-### Buyer FAQs:
-Q: [common question]
-A: [answer]
-
-Q: [common question]
-A: [answer]
-
-Q: [common question]
-A: [answer]
+## 🧠 Psychology Breakdown (REQUIRED)
+- **Desired Transformation:** [How the buyer feels after purchase]
+- **Buying Trigger:** (e.g., Status, Ease, Security, Pleasure)
 
 ## Rules
-- Features tell, benefits SELL — always translate features to benefits
-- Use sensory words (feel, see, experience)
-- Write for the buyer's emotion AND logic
-- No hype words like "amazing" or "revolutionary" — use specifics
-- Include size/compatibility info to reduce returns
+- Features tell, benefits SELL.
+- If `brand-voice.md` is not present, use the tone provided in arguments.
+- Include a specific Social Proof Hook to place near reviews.

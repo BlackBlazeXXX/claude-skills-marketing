@@ -4,59 +4,25 @@ description: Analyze competitors and find gaps, weaknesses, and opportunities to
 argument-hint: "[your business] [competitor name or website] [industry]"
 ---
 
-Do a full competitor analysis for: $ARGUMENTS
+Analyze competitors and find market gaps based on: $ARGUMENTS
 
-## Instructions
+## 🎯 Strategic Check
+1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
+2.  **Variations:** Offer three distinct ways to compete and win.
 
-Analyze the competitor and find opportunities:
+## 📝 Variation Section: Attack Strategies (Provide 3 Variations)
+### Variation [Name] (e.g., Aggressive, Stealthy, Quality-First)
+- **Primary Angle:** [How you will differentiate]
+- **The "Kill" Point:** [The specific weakness you will exploit]
+- **Quick Win Action:** [One task to do this week]
 
-1. **Competitor Overview** — who they are, what they offer
-2. **Their Strengths** — what they do well
-3. **Their Weaknesses** — where they fail customers
-4. **Their Marketing Strategy** — how they get customers
-5. **Pricing Analysis** — how they price
-6. **Customer Sentiment** — what customers say (reviews analysis)
-7. **Gap Opportunities** — what they're NOT doing that you can
-8. **Your Attack Strategy** — how to compete and win
+## ✍️ Full Analysis
+[Complete breakdown of Competitor Strengths, Weaknesses, Pricing, Support, and Customer Sentiment]
 
-## Output Format:
+## 🧠 Psychology Breakdown (REQUIRED)
+- **Competitive Edge Trigger:** (e.g., Framing, Anchoring, Social Proof)
+- **Gap Opportunity:** [Why the competitor is blind to this specific opportunity]
 
-### Competitor Overview:
-[summary of competitor]
-
-### Their Strengths:
-- [strength 1]
-- [strength 2]
-- [strength 3]
-
-### Their Weaknesses:
-- [weakness 1]
-- [weakness 2]
-- [weakness 3]
-
-### Their Marketing Channels:
-- Social Media: [platforms + strategy]
-- SEO: [keywords they target]
-- Ads: [ad approach]
-- Content: [content strategy]
-
-### Pricing:
-[their pricing model and range]
-
-### What Customers Complain About:
-- [complaint 1 — common review theme]
-- [complaint 2]
-- [complaint 3]
-
-### Gaps & Opportunities for YOU:
-1. [opportunity 1]
-2. [opportunity 2]
-3. [opportunity 3]
-
-### Your Winning Strategy:
-[specific actionable plan to compete and win]
-
-### Quick Win Actions (Do This Week):
-- [ ] [action 1]
-- [ ] [action 2]
-- [ ] [action 3]
+## Rules
+- If `brand-voice.md` is not present, use the tone provided in arguments.
+- Include a 3x3 Competitor Comparison Matrix at the end.

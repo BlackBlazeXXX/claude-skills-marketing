@@ -4,66 +4,25 @@ description: Create lead generation strategies, lead magnets, landing page copy,
 argument-hint: "[business type] [target client] [service/product]"
 ---
 
-Create a full lead generation system for: $ARGUMENTS
+Build a complete lead generation system based on: $ARGUMENTS
 
-## Instructions
+## 🎯 Strategic Check
+1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
+2.  **Variations:** Offer three distinct ways to capture and convert leads.
 
-Build a complete lead generation strategy:
+## 📝 Variation Section: Lead Gen Strategies (Provide 3 Variations)
+### Variation [Name] (e.g., Value-First/Freebie, Authority/Consultative, Results-Led/Case Study)
+- **Primary Lead Magnet:** [What they get for free]
+- **Core Message:** [Why they should care]
+- **Call to Action:** [Immediate next step]
 
-1. **Ideal Client Profile (ICP)** — exactly who to target
-2. **Lead Magnet Ideas** — 5 free offers that attract leads
-3. **Landing Page Copy** — headline, body, CTA
-4. **Outreach Scripts** — DM, email, LinkedIn message
-5. **Follow-up Sequence** — 5-touch follow-up plan
-6. **Lead Qualification Questions** — to filter good leads
-7. **Conversion Strategy** — how to turn leads into clients
+## ✍️ Full Execution Plan
+[Complete breakdown of Landing Page Copy, Outreach Scripts (DM/Email/Long), Discovery Questions, and a 5-step Follow-up Sequence]
 
-## Output Format:
+## 🧠 Psychology Breakdown (REQUIRED)
+- **Entry Trigger:** (e.g., Reciprocity, Consistency, Scarcity)
+- **Conversion Strategy:** [Why this specific flow turns strangers into leads]
 
-### Ideal Client Profile:
-- Industry: [industry]
-- Company size: [size]
-- Job title: [decision maker]
-- Pain they have: [pain]
-- Budget range: [estimate]
-- Where to find them: [channels]
-
-### Lead Magnet Ideas:
-1. [lead magnet - free checklist/template/guide/webinar]
-2. [lead magnet]
-3. [lead magnet]
-4. [lead magnet]
-5. [lead magnet]
-
-### Landing Page Copy:
-**Headline:** [headline]
-**Subheadline:** [subheadline]
-**Bullet Benefits:**
-- [benefit 1]
-- [benefit 2]
-- [benefit 3]
-**CTA Button:** [button text]
-
-### Cold DM Script (Instagram/Twitter):
-[casual, short, not salesy - under 50 words]
-
-### Cold Email Script:
-Subject: [subject]
-[email body - under 150 words]
-
-### LinkedIn Outreach:
-[professional connection message - under 300 chars]
-
-### Follow-up Sequence:
-- Day 1: [first touchpoint]
-- Day 3: [second touchpoint]
-- Day 7: [third touchpoint]
-- Day 14: [fourth touchpoint]
-- Day 21: [final touchpoint]
-
-### Discovery Call Questions:
-1. [question to understand their situation]
-2. [question to find their pain]
-3. [question to understand budget]
-4. [question to find decision timeline]
-5. [question to close or qualify out]
+## Rules
+- If `brand-voice.md` is not present, use the tone provided in arguments.
+- Include a specific Discovery Call Script at the end.

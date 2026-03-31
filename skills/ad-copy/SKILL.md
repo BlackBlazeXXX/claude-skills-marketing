@@ -4,46 +4,27 @@ description: Write high-converting ad copy for Google Ads, Facebook Ads, Instagr
 argument-hint: "[platform: google/facebook/instagram] [product/service] [target audience] [goal: clicks/sales/leads]"
 ---
 
-Write converting ad copy for: $ARGUMENTS
+Create at least THREE (3) distinct variations (e.g., Problem-Agitate-Solve, Benefit-Driven, Curiosity) for high-converting ad copy based on: $ARGUMENTS
 
-## Instructions
+## 🎯 Strategic Check
+1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
+2.  **Variations:** Offer three distinct angles for the same target goal.
 
-1. **Headline variations** — write 5 headlines
-2. **Primary text / Description** — main ad body
-3. **Display URL** suggestion
-4. **CTA** — best call-to-action for this goal
-5. **Audience targeting suggestion** — who to target
+## 📝 Variation Structure (Repeat for each)
+### Variation [Name]:
+**Headlines:** (Write 3-5 sub-variations)
+**Primary Text:** [main ad body]
+**Description:** [supporting text]
+**CTA Button:** [e.g., Shop Now / Sign Up]
+**Targeting Tip:** [Age / Interests / Behaviors]
 
-## Output Format:
-
-### Headlines (pick best 3):
-1. [headline - max 30 chars for Google]
-2. [headline]
-3. [headline]
-4. [headline]
-5. [headline]
-
-### Primary Text:
-[ad body - max 125 chars for Facebook primary]
-
-### Description:
-[supporting description]
-
-### CTA Button:
-[e.g., Shop Now / Learn More / Get Quote / Sign Up]
-
-### Targeting Suggestion:
-- Age: [range]
-- Interests: [list]
-- Behaviors: [list]
-
-### Why This Works:
-[brief explanation of psychology used]
+## 🧠 Psychology Breakdown (REQUIRED)
+Provide a final summary explaining:
+- **Primary Hook:** (e.g., Urgency, Novelty, Authority)
+- **Winning Strategy:** [2-3 sentences on why these variations outperform generic copy]
 
 ## Rules
 - Google Ads: headline max 30 chars, description max 90 chars
 - Facebook: primary text max 125 chars shown before "see more"
-- Use numbers when possible (e.g., "Save 50%", "Join 10,000+")
-- Address pain point OR desire in headline
-- Create urgency without being spammy
-- NEVER make false claims
+- Use numbers when possible (e.g., "Save 50%", "Join 10k+")
+- If `brand-voice.md` is not present, use the tone provided in arguments.

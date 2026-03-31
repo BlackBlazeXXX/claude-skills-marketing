@@ -4,41 +4,26 @@ description: Write high-converting email marketing campaigns, newsletters, cold 
 argument-hint: "[type: cold/newsletter/followup/launch] [product/service] [target audience]"
 ---
 
-Write a powerful email campaign based on: $ARGUMENTS
+Create at least THREE (3) distinct variations (e.g., Direct/Sales, Nurturing/Story, Urgency/FOMO) for a powerful email campaign based on: $ARGUMENTS
 
-## Instructions
+## 🎯 Strategic Check
+1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
+2.  **Campaign Type:** (Cold / Newsletter / Follow-up / Launch)
+3.  **Variations:** Offer three distinct psychological angles.
 
-1. **Subject Line** — write 3 variations (curiosity / benefit / urgency)
-2. **Preview Text** — 1 line that makes them open it
-3. **Email Body** using this structure:
-   - Opening hook (relate to their pain)
-   - Problem they face
-   - Solution you offer
-   - Proof / social proof
-   - Offer / CTA
-4. **CTA Button Text** — 3 options
-5. **P.S. line** — always add a P.S. (people always read it)
+## 📝 Variation Structure (Repeat for each)
+### Variation [Name]:
+**Subject Line:** [3 sub-variations: curiosity / benefit / urgency]
+**Preview Text:** [1 line that makes them open it]
+**Email Body:**
+[full email body - opening hook -> problem -> solution -> proof -> CTA]
+**CTA Button Options:** [3 options]
+**P.S. Line:** [compelling P.S.]
 
-## Output Format:
-
-### Subject Lines:
-1. [curiosity-based]
-2. [benefit-based]
-3. [urgency-based]
-
-### Preview Text:
-[preview line]
-
-### Email Body:
-[full email]
-
-### CTA Options:
-1. [button text 1]
-2. [button text 2]
-3. [button text 3]
-
-### P.S.:
-[p.s. line]
+## 🧠 Psychology Breakdown (REQUIRED)
+Provide a final summary explaining:
+- **Primary Trigger:** (e.g., Reciprocity, Social Proof, Loss Aversion)
+- **Why it works:** [2-3 sentences on why these specific structures were chosen for $ARGUMENTS]
 
 ## Rules
 - Subject line under 50 characters
@@ -46,4 +31,4 @@ Write a powerful email campaign based on: $ARGUMENTS
 - ONE clear CTA per email
 - Write like a human, not a robot
 - Use "you" more than "we" or "I"
-- Always focus on THEIR benefit, not your features
+- If `brand-voice.md` is not present, use the tone/audience provided in arguments.

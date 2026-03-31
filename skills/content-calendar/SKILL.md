@@ -4,56 +4,25 @@ description: Create a 30-day social media content calendar with post ideas, topi
 argument-hint: "[business type] [platforms] [goal: awareness/leads/sales]"
 ---
 
-Create a 30-day content calendar for: $ARGUMENTS
+Create at least THREE (3) distinct 30-day content strategies (e.g., Education-First, Engagement-Heavy, Product-Centric) based on: $ARGUMENTS
 
-## Instructions
+## 🎯 Strategic Check
+1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
+2.  **Variations:** Offer three distinct ways to rotate content over 30 days.
 
-Build a full month content plan:
+## 📝 Variation Section: Monthly Strategy (Provide 3 Variations)
+### Variation [Name]:
+- **Monthly Theme:** [Overall goal]
+- **Core Hook Strategy:** [How you stop the scroll this month]
+- **Key Metric:** [What to track]
 
-1. **Content Pillars** — 4-5 core topics to rotate
-2. **Posting Frequency** — how often per platform
-3. **Content Mix** — types of content (ratio)
-4. **30-Day Calendar** — day by day plan
-5. **Repurposing Strategy** — how to turn 1 piece into many
+## ✍️ Full Calendar Plan
+[Complete 30-day breakdown including Content Pillars, Posting Frequency per platform, and a Day-by-Day Calendar with Ideas, Formats, and Hooks]
 
-## Output Format:
+## 🧠 Psychology Breakdown (REQUIRED)
+- **Exposure Effect:** [How the frequency and pillars build brand familiarity]
+- **Engagement Strategy:** [Why these specific posts trigger comments/shares]
 
-### Content Pillars:
-1. [pillar 1 — e.g., Educational]
-2. [pillar 2 — e.g., Behind the Scenes]
-3. [pillar 3 — e.g., Social Proof/Testimonials]
-4. [pillar 4 — e.g., Promotional]
-5. [pillar 5 — e.g., Engagement/Fun]
-
-### Posting Schedule:
-- [Platform 1]: [X times per week]
-- [Platform 2]: [X times per week]
-
-### Content Type Mix:
-- 40% Educational/Value
-- 30% Engagement (questions, polls)
-- 20% Behind the scenes / Personal
-- 10% Promotional / Offer
-
-### 30-Day Calendar:
-
-**Week 1**
-| Day | Pillar | Content Idea | Format | Caption Hook |
-|---|---|---|---|---|
-| Day 1 | [pillar] | [specific idea] | [Reel/Post/Story] | [hook] |
-| Day 2 | [pillar] | [specific idea] | [format] | [hook] |
-| Day 3 | [pillar] | [specific idea] | [format] | [hook] |
-| Day 4 | [pillar] | [specific idea] | [format] | [hook] |
-| Day 5 | [pillar] | [specific idea] | [format] | [hook] |
-| Day 6 | [pillar] | [specific idea] | [format] | [hook] |
-| Day 7 | REST/Repurpose | — | — | — |
-
-[Repeat structure for Week 2, 3, 4]
-
-### Content Repurposing Strategy:
-1 Blog Post → [list all formats it becomes]
-1 Video → [list all formats it becomes]
-1 Quote → [list all formats it becomes]
-
-### Monthly Theme:
-[overall theme/campaign for this month]
+## Rules
+- If `brand-voice.md` is not present, use the tone provided in arguments.
+- Include a repurposing strategy at the end (1 Blog -> 5 formats).
