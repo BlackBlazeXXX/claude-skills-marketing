@@ -1,0 +1,22 @@
+{
+  "name": "social-media-post",
+  "version": "3.0",
+  "description": "Create viral social media posts for Instagram, Twitter/X, LinkedIn, Facebook with hooks and hashtags",
+  "logic": [
+    "Step 1: Check for brand-voice.md in current directory or skills folder.",
+    "Step 2: Load platform-specific constraints from core/global-constraints.json.",
+    "Step 3: Select 3 distinct marketing triggers from core/marketing-triggers.json.",
+    "Step 4: Generate 3 distinct variations (Professional, Edgy, Minimalist).",
+    "Step 5: For each variation, include Hook, Post Body, CTA, Hashtags, and Posting Time.",
+    "Step 6: Finalize with a Psychology Breakdown including the Trigger and Why it works."
+  ],
+  "parameter_validation": {
+    "platform": "Must be one of: Instagram, Twitter-X, LinkedIn, Facebook, TikTok",
+    "topic": "The main subject of the post",
+    "tone": "Optional - used only if brand-voice.md is missing"
+  },
+  "constraints_override": {
+    "Twitter": "Maintain character count strictly below 280.",
+    "LinkedIn": "Prioritize industry-specific authority building."
+  }
+}
