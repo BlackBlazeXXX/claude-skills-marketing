@@ -1,0 +1,21 @@
+{
+  "name": "ad-copy",
+  "version": "3.0",
+  "description": "Write high-converting ad copy for Google, FB, and Instagram Ads",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Load global platform constraints (max chars for Headlines/Description).",
+    "Step 3: Process arguments: $ARGUMENTS.",
+    "Step 4: Generate 3 variations (Problem-Agitate-Solve, Benefit-Driven, Curiosity).",
+    "Step 5: For each variation, include Headlines (3-5), Primary Text, Description, and CTA.",
+    "Step 6: Finalize with a Psychology Breakdown for the winning hook."
+  ],
+  "parameter_validation": {
+    "platform": "Must be: google, facebook, or instagram",
+    "goal": "Must be: clicks, sales, or leads"
+  },
+  "constraints_override": {
+    "Google": { "headline_chars": 30, "description_chars": 90 },
+    "Facebook": { "primary_chars": 125 }
+  }
+}

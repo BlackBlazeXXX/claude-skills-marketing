@@ -1,0 +1,19 @@
+{
+  "name": "viral-hook",
+  "version": "3.0",
+  "description": "Write viral hooks, headlines, and opening lines that stop the scroll",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Process arguments: $ARGUMENTS.",
+    "Step 3: Generate 3 distinct angles (Logic/Evidence, Emotional/ Dramatic, Curiosity-Loop).",
+    "Step 4: For each angle, provide a set of 10 hooks (Curiosity, Contrarian, Number, Fear, Desire).",
+    "Step 5: Provide Top 3 Picks for the chosen platform.",
+    "Step 6: Finalize with a Psychology Breakdown for the attention trigger."
+  ],
+  "parameter_validation": {
+    "topic": "The main subject",
+    "platform": "Social channel",
+    "emotion": "Curiosity, fear, desire, anger, or inspiration"
+  },
+  "constraints_override": null
+}

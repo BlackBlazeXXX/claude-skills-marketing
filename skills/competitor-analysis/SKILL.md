@@ -1,28 +1,23 @@
 ---
 name: competitor-analysis
-description: Analyze competitors and find gaps, weaknesses, and opportunities to beat them in the market
+description: v3.0 Meta-Level Competitor Analysis (Data-Driven)
 argument-hint: "[your business] [competitor name or website] [industry]"
 ---
 
-Analyze competitors and find market gaps based on: $ARGUMENTS
+## ⚡ v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Competitor Analysis Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Variations:** Offer three distinct ways to compete and win.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` and `core/marketing-triggers.json`.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current folder or skills folder, ensure your "Winning Strategy" aligns with your brand.
+4.  **Parameter Injection:** Process: $ARGUMENTS
 
-## 📝 Variation Section: Attack Strategies (Provide 3 Variations)
-### Variation [Name] (e.g., Aggressive, Stealthy, Quality-First)
-- **Primary Angle:** [How you will differentiate]
-- **The "Kill" Point:** [The specific weakness you will exploit]
-- **Quick Win Action:** [One task to do this week]
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct Attack Strategies** (Aggressive, Stealthy, Quality-First).
+- Each variation MUST strictly follow the `meta.json` structure (Primary Angle, The 'Kill' Point, Quick Win Action).
+- You MUST provide a **Psychology Breakdown** including the Competitive Edge Trigger and Gap Opportunity for $ARGUMENTS.
 
-## ✍️ Full Analysis
-[Complete breakdown of Competitor Strengths, Weaknesses, Pricing, Support, and Customer Sentiment]
-
-## 🧠 Psychology Breakdown (REQUIRED)
-- **Competitive Edge Trigger:** (e.g., Framing, Anchoring, Social Proof)
-- **Gap Opportunity:** [Why the competitor is blind to this specific opportunity]
-
-## Rules
-- If `brand-voice.md` is not present, use the tone provided in arguments.
+### 🚫 Constraints
 - Include a 3x3 Competitor Comparison Matrix at the end.
+- Attack strategies must focus on actual market holes, not just "doing it better."

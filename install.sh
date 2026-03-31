@@ -6,7 +6,9 @@ echo "================================================"
 echo ""
 
 mkdir -p ~/.claude/skills
+mkdir -p ~/.claude/core
 
+cp -r core/* ~/.claude/core/
 cp -r skills/* ~/.claude/skills/
 
 for skill_path in skills/*/ ; do

@@ -1,0 +1,19 @@
+{
+  "name": "content-calendar",
+  "version": "3.0",
+  "description": "Create a 30-day social media content calendar with themes and pillars",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Process arguments: $ARGUMENTS.",
+    "Step 3: Generate 3 content strategies (Education-First, Engagement, Product-Centric).",
+    "Step 4: For each strategy, include Monthly Theme, Core Hook Strategy, and Key Metric.",
+    "Step 5: Provide full 30-day Calendar with Pillars, Industry Specific Ideas, and Hooks.",
+    "Step 6: Finalize with a Psychology Breakdown for the exposure effect."
+  ],
+  "parameter_validation": {
+    "business": "Marketing niche",
+    "platforms": "Social channels",
+    "goal": "awareness, leads, or sales"
+  },
+  "constraints_override": null
+}

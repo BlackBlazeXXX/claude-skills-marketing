@@ -8,10 +8,18 @@ Write-Host "================================================" -ForegroundColor C
 Write-Host ""
 
 $skillsDir = Join-Path $Home ".claude" "skills"
+$coreDir = Join-Path $Home ".claude" "core"
 
 if (!(Test-Path $skillsDir)) {
     New-Item -ItemType Directory -Path $skillsDir -Force | Out-Null
 }
+
+if (!(Test-Path $coreDir)) {
+    New-Item -ItemType Directory -Path $coreDir -Force | Out-Null
+}
+
+# Copy Global Core
+Copy-Item -Path "core/*" -Destination $coreDir -Recurse -Force
 
 $currentSkills = Get-ChildItem -Directory -Path "skills"
 

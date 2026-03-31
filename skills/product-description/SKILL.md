@@ -1,29 +1,24 @@
 ---
 name: product-description
-description: Write compelling product descriptions for ecommerce, websites, and marketplaces that convert browsers into buyers
+description: v3.0 Meta-Level Product Description Engine (Data-Driven)
 argument-hint: "[product name] [key features] [target buyer] [platform: amazon/shopify/website]"
 ---
 
-Create at least THREE (3) distinct product descriptions (e.g., Luxury/Minimalist, High-Energy/Benefit, Direct/Technical) based on: $ARGUMENTS
+## 🛍 v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Product Description Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Variations:** Offer three distinct ways to sell this product based on the buyer persona.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` and `core/marketing-triggers.json`.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current folder or skills folder, ensure the voice matches the user's business identity.
+4.  **Parameter Injection:** Process: $ARGUMENTS
 
-## 📝 Variation Section: Selling Angles (Provide 3 Variations)
-### Variation [Name]:
-- **Hook Title:** [Benefit-led title]
-- **The "Big Promise":** [What is the #1 result?]
-- **Short Description:** [2-3 sentences above the fold]
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct Selling Angles** (Luxury/Minimalist, High-Energy/Benefit, Direct/Technical).
+- Each variation MUST strictly follow the `meta.json` structure (Hook Title, The "Big Promise", and Short Description).
+- You MUST provide a **Psychology Breakdown** including the Desired Transformation and Buying Trigger for $ARGUMENTS.
 
-## ✍️ Full Product Detail
-[Complete breakdown including Full Description, 5 Bullet Benefits (Feature -> Benefit mapping), Technical Specs Table, and 3 Buyer FAQs]
-
-## 🧠 Psychology Breakdown (REQUIRED)
-- **Desired Transformation:** [How the buyer feels after purchase]
-- **Buying Trigger:** (e.g., Status, Ease, Security, Pleasure)
-
-## Rules
-- Features tell, benefits SELL.
-- If `brand-voice.md` is not present, use the tone provided in arguments.
-- Include a specific Social Proof Hook to place near reviews.
+### 🚫 Constraints
+- Features Tell, Benefits SELL. Always map features to outcomes.
+- Include a specific Social Proof Hook to place near the reviews section.
+- Use sensory language (feel, see, experience) where appropriate.

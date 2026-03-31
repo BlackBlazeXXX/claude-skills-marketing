@@ -1,0 +1,19 @@
+{
+  "name": "email-campaign",
+  "version": "3.0",
+  "description": "Write high-converting email marketing campaigns and follow-up sequences",
+  "logic": [
+    "Step 1: Check for brand-voice.md for tone and audience.",
+    "Step 2: Load email-specific triggers (Reciprocity, Social Proof).",
+    "Step 3: Process arguments: $ARGUMENTS.",
+    "Step 4: Generate 3 variations (Sales/Direct, Nurturing/Story, Urgency/FOMO).",
+    "Step 5: For each variation, include 3 Subject Lines, Body, CTA, and P.S. line.",
+    "Step 6: Ensure body content is under 300 words for cold emails."
+  ],
+  "parameter_validation": {
+    "type": "Must be: cold, newsletter, followup, or launch",
+    "product": "Product or service offered",
+    "audience": "Target recipient"
+  },
+  "constraints_override": null
+}

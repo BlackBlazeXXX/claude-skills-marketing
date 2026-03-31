@@ -1,0 +1,20 @@
+{
+  "name": "product-description",
+  "version": "3.0",
+  "description": "Write compelling product descriptions that convert browsers into buyers",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Process arguments: $ARGUMENTS.",
+    "Step 3: Generate 3 selling angles (Luxury/Minimal, High-Energy, Direct/Tech).",
+    "Step 4: For each angle, include Hook Title, 'Big Promise', and Short Description.",
+    "Step 5: Provide full Product Detail: Long Desc, 5 Bullet Benefits, Specs Table, and 3 FAQs.",
+    "Step 6: Finalize with a Psychology Breakdown for the buying trigger."
+  ],
+  "parameter_validation": {
+    "product": "Product name",
+    "features": "Key highlights",
+    "target": "Target buyer",
+    "platform": "amazon, shopify, or website"
+  },
+  "constraints_override": null
+}

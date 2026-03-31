@@ -45,13 +45,14 @@
  
  ---
  
- ## 🧠 The "Masterpiece" Upgrade (v2.0)
+ ## 🧠 The JSON "Meta-Level" Upgrade (v3.0) 💎
  
- We've upgraded every skill to a "Master" level with three major new features:
+ We've completely re-engineered the project with a **Data-Driven Meta-Level architecture**. This isn't just about prompts; it's about structured intelligence.
  
- 1.  **🎭 Brand Voice Integration:** Create a `brand-voice.md` file in your skills directory. Every command will now automatically adapt to your specific brand tone, audience, and style. No more generic AI fluff.
- 2.  **🧠 Psychology Breakdowns:** Every output now includes a "Why This Works" section, explaining the psychological triggers (Loss Aversion, Social Proof, Curiosity) used in the copy.
- 3.  **🔄 3x Variations:** Every command now generates **3 distinct variations** (e.g., Professional, Edgy, Minimalist) so you can pick the perfect one for your goal.
+ 1.  **⚙️ JSON Logic Engine:** Every skill is now powered by a `meta.json` file. This forces Claude to follow a precise, algorithmic reasoning path (e.g., LOAD_BRAND_VOICE -> APPLY_CONSTRAINTS -> PSYCHOLOGY_CHECK).
+ 2.  **🌍 Global Core:** Universal marketing rules and platform constraints are now centralized in the `core/` directory. Updates to character limits or strategy rules now propagate to all 11 skills instantly.
+ 3.  **🎭 Enhanced Brand Voice:** The `brand-voice.md` integration is now deeply embedded in the JSON logic, ensuring 100% consistency with your unique business identity.
+ 4.  **🧠 Psychology-First Generation:** Skills now pull directly from a `marketing-triggers.json` dictionary to explain exactly why your content will convert.
  
  ---
  

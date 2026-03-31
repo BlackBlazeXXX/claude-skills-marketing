@@ -1,28 +1,23 @@
 ---
 name: content-calendar
-description: Create a 30-day social media content calendar with post ideas, topics, and strategy for any business
+description: v3.0 Meta-Level Content Calendar Engine (Data-Driven)
 argument-hint: "[business type] [platforms] [goal: awareness/leads/sales]"
 ---
 
-Create at least THREE (3) distinct 30-day content strategies (e.g., Education-First, Engagement-Heavy, Product-Centric) based on: $ARGUMENTS
+## 📅 v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Content Calendar Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Variations:** Offer three distinct ways to rotate content over 30 days.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` for meta limits and `core/marketing-triggers.json` for psychological triggers.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current folder or skills folder, ensure themes and pillars align with the brand identity.
+4.  **Parameter Injection:** Process: $ARGUMENTS
 
-## 📝 Variation Section: Monthly Strategy (Provide 3 Variations)
-### Variation [Name]:
-- **Monthly Theme:** [Overall goal]
-- **Core Hook Strategy:** [How you stop the scroll this month]
-- **Key Metric:** [What to track]
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct Content Strategies** (Education-First, Engagement-Heavy, Product-Centric).
+- Each variation MUST strictly follow the `meta.json` structure (Monthly Theme, Hook Strategy, Key Metric).
+- You MUST provide a **Psychology Breakdown** including the Exposure Effect and Engagement Strategy for $ARGUMENTS.
 
-## ✍️ Full Calendar Plan
-[Complete 30-day breakdown including Content Pillars, Posting Frequency per platform, and a Day-by-Day Calendar with Ideas, Formats, and Hooks]
-
-## 🧠 Psychology Breakdown (REQUIRED)
-- **Exposure Effect:** [How the frequency and pillars build brand familiarity]
-- **Engagement Strategy:** [Why these specific posts trigger comments/shares]
-
-## Rules
-- If `brand-voice.md` is not present, use the tone provided in arguments.
+### 🚫 Constraints
 - Include a repurposing strategy at the end (1 Blog -> 5 formats).
+- Ensure a healthy mix of 40% Education, 30% Engagement, 20% Behind-the-scenes, and 10% Promotional.

@@ -1,0 +1,18 @@
+{
+  "name": "sales-objection",
+  "version": "3.0",
+  "description": "Turn tough customer objections into closing opportunities with reframing",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Process arguments: $ARGUMENTS.",
+    "Step 3: Generate 3 variations (Feel-Felt-Found, Straight-Shooter, Value-Anchor).",
+    "Step 4: For each variation, include Acknowledge, Reframe, Evidence, and Final Question.",
+    "Step 5: Finalize with a Psychology Breakdown for the primary trigger."
+  ],
+  "parameter_validation": {
+    "objection": "The customer's pushback",
+    "product": "What is being sold",
+    "tone": "Empathetic, direct, or bold"
+  },
+  "constraints_override": null
+}

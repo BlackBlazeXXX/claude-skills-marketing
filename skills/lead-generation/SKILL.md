@@ -1,28 +1,24 @@
 ---
 name: lead-generation
-description: Create lead generation strategies, lead magnets, landing page copy, and outreach scripts to get more clients
+description: v3.0 Meta-Level Lead Generation Engine (Data-Driven)
 argument-hint: "[business type] [target client] [service/product]"
 ---
 
-Build a complete lead generation system based on: $ARGUMENTS
+## ⚡ v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Lead Generation Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Variations:** Offer three distinct ways to capture and convert leads.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` and `core/marketing-triggers.json`.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current folder or skills folder, it takes precedence over general tone/audience settings.
+4.  **Parameter Injection:** Process: $ARGUMENTS
 
-## 📝 Variation Section: Lead Gen Strategies (Provide 3 Variations)
-### Variation [Name] (e.g., Value-First/Freebie, Authority/Consultative, Results-Led/Case Study)
-- **Primary Lead Magnet:** [What they get for free]
-- **Core Message:** [Why they should care]
-- **Call to Action:** [Immediate next step]
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct Lead Gen Strategies** (Value-First, Authority, Results-Led).
+- Each variation MUST strictly follow the `meta.json` structure (Primary Lead Magnet, Core Message, Call to Action).
+- You MUST provide a **Psychology Breakdown** including the Entry Trigger and Conversion Strategy for $ARGUMENTS.
 
-## ✍️ Full Execution Plan
-[Complete breakdown of Landing Page Copy, Outreach Scripts (DM/Email/Long), Discovery Questions, and a 5-step Follow-up Sequence]
-
-## 🧠 Psychology Breakdown (REQUIRED)
-- **Entry Trigger:** (e.g., Reciprocity, Consistency, Scarcity)
-- **Conversion Strategy:** [Why this specific flow turns strangers into leads]
-
-## Rules
-- If `brand-voice.md` is not present, use the tone provided in arguments.
+### 🚫 Constraints
 - Include a specific Discovery Call Script at the end.
+- Outreach messages for LinkedIn must be under 300 characters for connection notes.
+- Focus on building genuine reciprocity before the ask.

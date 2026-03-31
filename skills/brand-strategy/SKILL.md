@@ -1,28 +1,23 @@
 ---
 name: brand-strategy
-description: Build a complete brand strategy including positioning, voice, messaging, and USP for any business
+description: v3.0 Meta-Level Brand Strategy Generator (Data-Driven)
 argument-hint: "[business name] [industry] [target audience] [main competitor]"
 ---
 
-Build at least THREE (3) distinct brand strategy angles (e.g., Premium/Elite, Fast/Accessible, Rebel/Disruptor) based on: $ARGUMENTS
+## ⚡ v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Brand Strategy Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Variations:** Offer three distinct ways to position this brand in the market.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` and `core/marketing-triggers.json`.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current folder or skills folder, it takes precedence over general tone/audience settings.
+4.  **Parameter Injection:** Process: $ARGUMENTS
 
-## 📝 Variation Section: Positioning (Provide 3 Variations)
-### Variation [Name]:
-**Positioning Statement:** "For [audience] who [need], [brand] is the [category] that [benefit] unlike [competitor]..."
-**USP:** [key differentiator]
-**Tagline:** [short, punchy]
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct Positioning angles** (Premium/Elite, Fast/Accessible, Rebel/Disruptor).
+- Each variation MUST strictly follow the `meta.json` structure (Positioning Statement, USP, Tagline).
+- You MUST provide a **Psychology Breakdown** including the Primary Archetype and Trust Trigger for $ARGUMENTS.
 
-## ✍️ Full Brand Document
-[Complete detailed brand strategy covering Buyer Persona, Voice & Tone, Core Messages, and Promise, following the selected voice]
-
-## 🧠 Psychology Breakdown (REQUIRED)
-- **Primary Archetype:** (e.g., The Sage, The Hero, The Outlaw)
-- **Trust Trigger:** [How this strategy builds immediate credibility]
-
-## Rules
-- If `brand-voice.md` is not present, use the tone provided in arguments.
-- Include a specific Differentiator Table at the end.
+### 🚫 Constraints
+- Always include a specific Differentiator Table at the end.
+- Voice and tone must be strictly mapped to the chosen persona's pain points.

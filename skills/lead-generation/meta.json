@@ -1,0 +1,19 @@
+{
+  "name": "lead-generation",
+  "version": "3.0",
+  "description": "Create a full lead generation system with offers and outreach scripts",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Process arguments: $ARGUMENTS.",
+    "Step 3: Generate 3 lead-gen strategies (Value-First, Authority, Results-Led).",
+    "Step 4: For each strategy, include Primary Lead Magnet, Core Message, and CTA.",
+    "Step 5: Provide full Execution Plan: Landing Copy, Outreach (DM/Email), and Follow-up.",
+    "Step 6: Finalize with a Psychology Breakdown for the conversion strategy."
+  ],
+  "parameter_validation": {
+    "business_type": "Marketing niche",
+    "target": "ICP / Target client",
+    "service": "Product or service"
+  },
+  "constraints_override": null
+}

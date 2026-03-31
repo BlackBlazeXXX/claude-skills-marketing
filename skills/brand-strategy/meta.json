@@ -1,0 +1,19 @@
+{
+  "name": "brand-strategy",
+  "version": "3.0",
+  "description": "Build a complete brand strategy including positioning, voice, and USP",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Process arguments: $ARGUMENTS.",
+    "Step 3: Generate 3 positioning angles (Premium, Fast, Rebel).",
+    "Step 4: For each angle, include Positioning Statement, USP, and Tagline.",
+    "Step 5: Provide full Buyer Persona, Tone, Core Messages, and Promise.",
+    "Step 6: Finalize with a Psychology Breakdown for the archetype."
+  ],
+  "parameter_validation": {
+    "business_name": "Name of the brand",
+    "industry": "Market category",
+    "target": "Audience persona"
+  },
+  "constraints_override": null
+}

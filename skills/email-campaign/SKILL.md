@@ -1,34 +1,24 @@
 ---
 name: email-campaign
-description: Write high-converting email marketing campaigns, newsletters, cold emails, and follow-up sequences
+description: v3.0 Meta-Level Email Campaign Generator (Data-Driven)
 argument-hint: "[type: cold/newsletter/followup/launch] [product/service] [target audience]"
 ---
 
-Create at least THREE (3) distinct variations (e.g., Direct/Sales, Nurturing/Story, Urgency/FOMO) for a powerful email campaign based on: $ARGUMENTS
+## 📧 v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Email Generation Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Campaign Type:** (Cold / Newsletter / Follow-up / Launch)
-3.  **Variations:** Offer three distinct psychological angles.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` and `core/marketing-triggers.json`.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current folder or skills folder, prioritize it for tone and audience. 
+4.  **Parameter Injection:** Process: $ARGUMENTS
 
-## 📝 Variation Structure (Repeat for each)
-### Variation [Name]:
-**Subject Line:** [3 sub-variations: curiosity / benefit / urgency]
-**Preview Text:** [1 line that makes them open it]
-**Email Body:**
-[full email body - opening hook -> problem -> solution -> proof -> CTA]
-**CTA Button Options:** [3 options]
-**P.S. Line:** [compelling P.S.]
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct meta-level variations** (Direct/Sales, Nurturing/Story, Urgency/FOMO).
+- Each variation MUST strictly follow the `meta.json` structure (3 Subject Lines, Preview Text, Body, 3 CTA Button options, and a P.S.).
+- You MUST provide a **Psychology Breakdown** including the Primary Trigger and why it's effective for $ARGUMENTS.
 
-## 🧠 Psychology Breakdown (REQUIRED)
-Provide a final summary explaining:
-- **Primary Trigger:** (e.g., Reciprocity, Social Proof, Loss Aversion)
-- **Why it works:** [2-3 sentences on why these specific structures were chosen for $ARGUMENTS]
-
-## Rules
-- Subject line under 50 characters
-- Email body under 300 words for cold email
-- ONE clear CTA per email
-- Write like a human, not a robot
-- Use "you" more than "we" or "I"
-- If `brand-voice.md` is not present, use the tone/audience provided in arguments.
+### 🚫 Constraints
+- Subject lines are Hard-Locked at 50 characters for maximum mobile visibility.
+- Email body is Capped at 300 words for "Cold" campaigns.
+- Use "you" more than "I/we" to maintain high customer centricity.

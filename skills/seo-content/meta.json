@@ -1,0 +1,23 @@
+{
+  "name": "seo-content",
+  "version": "3.0",
+  "description": "Write SEO-optimized blog content and metadata that ranks on Google",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Process arguments: $ARGUMENTS.",
+    "Step 3: Generate 3 variations (Clickbait/Viral, Authority/Guide, Short/Punchy).",
+    "Step 4: For each variation, include Title Tag, Meta Description, and H1 Header.",
+    "Step 5: Provide 1 primary + 5 LSI keywords.",
+    "Step 6: Generate main article with H2/H3 subheadings, FAQ section, and Conclusion.",
+    "Step 7: Finalize with a Psychology Breakdown for the search intent."
+  ],
+  "parameter_validation": {
+    "topic": "Keyword or theme",
+    "wordcount": "Target length",
+    "audience": "Target reader"
+  },
+  "constraints_override": {
+    "TitleTag": { "max_chars": 60 },
+    "MetaDescription": { "max_chars": 155 }
+  }
+}

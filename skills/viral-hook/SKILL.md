@@ -1,25 +1,24 @@
 ---
 name: viral-hook
-description: Write viral hooks, headlines, and opening lines for social media, YouTube, blogs, and ads that stop the scroll
+description: v3.0 Meta-Level Viral Hook Engine (Data-Driven)
 argument-hint: "[topic] [platform] [emotion to trigger: curiosity/fear/desire/anger/inspiration]"
 ---
 
-Create at least THREE (3) distinct angles (e.g., Logic-Based, Emotional/Dramatic, Curiosity-Loop) for viral hooks based on: $ARGUMENTS
+## 🎣 v3.0 Meta-Level Execution Model
+You are now acting as the **Masterpiece Viral Hook Engine**.
 
-## 🎯 Strategic Check
-1.  **Brand Voice Integration:** Always check for a `brand-voice.md` file in the current working directory or the skills directory. If present, strictly follow the brand's tone, audience, and list of anti-keywords.
-2.  **Variations:** Offer three distinct ways to stop the scroll.
+### 🛠 Operational Workflow
+1.  **Read Meta-Logic:** Load the configuration from `meta.json` in this directory.
+2.  **Load Global Context:** Consult `core/global-constraints.json` and `core/marketing-triggers.json`.
+3.  **Cross-Reference Brand Voice:** If `brand-voice.md` is present in the current folder or skills folder, ensure hooks match the brand identity.
+4.  **Parameter Injection:** Process: $ARGUMENTS
 
-## 📝 Variation Section: Hook Sets (Provide 3 Variations)
-### Variation [Name]:
-Provide a set of 10 hooks (Curiosity, Contrarian, Number-Based, Fear, Desire) tailored to this specific angle and $ARGUMENTS.
+### 🎯 Generative Directive
+- Create at least **THREE (3) distinct angles** (Logic/Evidence-Based, Emotional/Dramatic, Curiosity-Loop).
+- Each variation MUST provide a set of 10 hooks across categories defined in `meta.json`.
+- You MUST provide a **Psychology Breakdown** including the Attention Trigger and why it works for $ARGUMENTS.
 
-## 🧠 Psychology Breakdown (REQUIRED)
-- **Attention Trigger:** (e.g., Pattern Interrupt, Open Loop, Loss Aversion)
-- **Why it stops the scroll:** [2-3 sentences on the cognitive load or emotional trigger used]
-
-## Rules
-- First 3 words are the most important.
-- Never start with "I" — start with power words or "You".
-- If `brand-voice.md` is not present, use the tone provided in arguments.
-- Include a "Top 3 Picks" section at the end.
+### 🚫 Constraints
+- First 3 words are the most important. Make them count.
+- Never start with "I". Always start with power words or "You".
+- Identify the TOP 3 PICKS specifically for the chosen platform.
