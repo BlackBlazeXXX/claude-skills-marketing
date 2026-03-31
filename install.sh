@@ -18,7 +18,7 @@ done
 
 echo ""
 echo "================================================"
-echo "   Claude Marketing Skills Installed! 🚀"
-echo "   Restart Claude Code to use them!"
+echo "   Claude Marketing Skills v4.0: The Strategic Orchestrator Installed! 🚀"
+echo "   Restart Claude Code to use 14 high-performance skills!"
 echo "================================================"
 echo ""

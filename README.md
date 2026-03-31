@@ -35,24 +35,21 @@
  
  ---
  
- ## ✅ The Solution
+ ## Claude Marketing Skills v4.0: The Strategic Orchestrator 💎
  
- ```bash
- /social-media-post Instagram fitness brand motivational
- ```
- 
- **That's it. One command. Full professional output. Every time.**
+ A powerful, data-driven marketing toolkit with 14 high-performance skills, global brand-voice integration, and a master campaign orchestration engine.
  
  ---
  
- ## 🧠 The JSON "Meta-Level" Upgrade (v3.0) 💎
+ ## 🏗️ v4.0 "The Strategic Orchestrator" Upgrade ⚡
  
- We've completely re-engineered the project with a **Data-Driven Meta-Level architecture**. This isn't just about prompts; it's about structured intelligence.
+ We've evolved the project from a simple toolset into a **Strategic Marketing Operating System**.
  
- 1.  **⚙️ JSON Logic Engine:** Every skill is now powered by a `meta.json` file. This forces Claude to follow a precise, algorithmic reasoning path (e.g., LOAD_BRAND_VOICE -> APPLY_CONSTRAINTS -> PSYCHOLOGY_CHECK).
- 2.  **🌍 Global Core:** Universal marketing rules and platform constraints are now centralized in the `core/` directory. Updates to character limits or strategy rules now propagate to all 11 skills instantly.
- 3.  **🎭 Enhanced Brand Voice:** The `brand-voice.md` integration is now deeply embedded in the JSON logic, ensuring 100% consistency with your unique business identity.
- 4.  **🧠 Psychology-First Generation:** Skills now pull directly from a `marketing-triggers.json` dictionary to explain exactly why your content will convert.
+ 1.  **⚡ Multi-Skill Orchestrator (`/marketing-campaign`):** One command to build your entire funnel. It coordinates Strategy, Lead Gen, Ads, Emails, and Posts in 100% alignment.
+ 2.  **🎨 Visual DNA Integration:** Every skill now outputs **Midjourney & DALL-E prompts** tailored to the psychology of the generated copy.
+ 3.  **🎤 Interactive Guided Mode:** Use the `--guided` flag on any skill to start a strategic "interview" with Claude for deeper business insights.
+ 4.  **⚖️ Logic Auditor:** All 14 skills now run a hidden "Self-Correction" layer, auditing character limits, power-word usage, and brand-voice compliance before final output.
+ 5.  **🧪 Scientific Splitting (`/ab-test`):** Generate statistically valid A/B tests to optimize your marketing performance.
  
  ---
  
