@@ -1,0 +1,18 @@
+{
+  "name": "visual-prompt",
+  "version": "4.0",
+  "description": "Create high-converting AI image prompts for Midjourney, DALL-E, and Sora to match your marketing strategy",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Determine visual style (Minimalist, Cyberpunk, Cinematic, Abstract, High-Fashion).",
+    "Step 3: Map marketing-triggers.json to visual elements (e.g., Urgency -> Warm colors, curiosity -> shadows/composition).",
+    "Step 4: Generate 3 distinct Midjourney/DALL-E prompt variations.",
+    "Step 5: Finalize with a Psychology Breakdown for the visual appeal."
+  ],
+  "parameter_validation": {
+    "topic": "The main subject of the image",
+    "platform": "The target social channel",
+    "style": "The visual vibe (Optional)"
+  },
+  "constraints_override": null
+}

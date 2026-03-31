@@ -1,0 +1,19 @@
+{
+  "name": "marketing-campaign",
+  "version": "4.0",
+  "description": "The Orchestrator - coordinating Strategy, Leads, Ads, Emails, and Posts for a complete business launch funnel",
+  "logic": [
+    "Step 1: INITIAL_INTERVIEW (Use --guided mode logic to extract core mission and target audience).",
+    "Step 2: POSITIONING_ENGINE (Load brand-strategy/meta.json to define the market angle).",
+    "Step 3: FUNNEL_MAPPING (Design the flow: Ad -> Landing -> Lead Magnet -> Email Sequence).",
+    "Step 4: ASSET_GENERATION (Execute the logic for all required sub-skills: ad-copy, email-campaign, and social-media-post).",
+    "Step 5: VISUAL_DNA (Generate Midjourney/DALL-E prompts for every single asset to ensure brand alignment).",
+    "Step 6: LOGIC_AUDIT (Verify that all assets share the same voice and triggers before final output)."
+  ],
+  "parameter_validation": {
+    "goal": "Launch, rebrand, or growth blitz",
+    "topic": "The product or service",
+    "audience": "Primary target persona"
+  },
+  "constraints_override": null
+}

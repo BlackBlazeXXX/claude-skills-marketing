@@ -1,0 +1,19 @@
+{
+  "name": "ab-test",
+  "version": "4.0",
+  "description": "Generate scientifically split marketing variations for A/B testing",
+  "logic": [
+    "Step 1: Check brand-voice.md for brand consistency.",
+    "Step 2: Identify the CORE VARIABLE to test (Hook, CTA, Tone, Angle).",
+    "Step 3: Create 'Control' (Group A) using traditional best practices.",
+    "Step 4: Create 'Variable' (Group B) using a contrasting psychological trigger (e.g., Urgency vs. Benefit).",
+    "Step 5: Provide specific test metrics (What to track: CTR, Open Rate, Conversion).",
+    "Step 6: Finalize with a Psychology Breakdown for the split."
+  ],
+  "parameter_validation": {
+    "type": "Email, Ad, or Social Post",
+    "comparison": "Variable to test (e.g., Headline, Body, Image)",
+    "goal": "Click-through rate or Conversion"
+  },
+  "constraints_override": null
+}
